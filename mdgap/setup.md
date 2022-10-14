@@ -1,4 +1,5 @@
-Setup Configuration
+# Setup Configuration #
+
 1) download the LXC
 2) untar the lxc into /opt/fmadio/lxc/
 3) symlink  mdgap-YYYMMDD -> mdgap
