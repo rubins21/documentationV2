@@ -9,7 +9,7 @@ FMADIO Market Data Gap Github Project
 
 By default the gap detector runs in an LXC container, this container is built and downloaded in the following location
 
-***insert link to download page***
+## (/release)
 
 Once installed the system uses the PCAP Push functionality of the system that writes (optionally) filtered PCAP data into an internal ring buffer. That packet ring buffer is passed to the LXC MDGap container, which in-turn pulls data off the ring and processes it.
 
