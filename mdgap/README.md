@@ -14,7 +14,7 @@ By default the gap detector runs in an LXC container, this container is built an
 Once installed the system uses the PCAP Push functionality of the system that writes (optionally) filtered PCAP data into an internal ring buffer. That packet ring buffer is passed to the LXC MDGap container, which in-turn pulls data off the ring and processes it.
 
 A high level overview is shown below
-![FMADIO Market Data Gap Architecture](/images/mdgap_architecture.png) 
+![FMADIO Market Data Gap Architecture](../images/mdgap_architecture.png) 
 
 
 
