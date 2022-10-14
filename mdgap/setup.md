@@ -1,3 +1,8 @@
+---
+sidebar_label: 'Setup'
+sidebar_position: 2
+---
+
 # Setup Configuration #
 
 1) download the LXC

@@ -1,3 +1,8 @@
+---
+sidebar_label: 'Performance'
+sidebar_position: 3
+---
+
 # Performance
 
 Some reference performance numbers. All using a 1 CPU for processing, for high throughputs multiple CPUs can be used, typically filtering by multicast group number
