@@ -9,7 +9,6 @@
 7) use systemctl to enable/start specific protocols to use
 
 ```
-// Some code
 root@mdgap-20220927:/etc/systemd/system# systemctl status fmadio-mdgap*
 * fmadio-mdgap-cme_mdp3_v1.service - FMADIO Market Data Gap Detection
    Loaded: loaded (/etc/systemd/system/fmadio-mdgap-cme_mdp3_v1.service; disabled; vendor preset: disabled)
@@ -40,6 +39,6 @@ root@mdgap-20220927:/etc/systemd/system# systemctl status fmadio-mdgap*
    Active: inactive (dead)
 root@mdgap-20220927:/etc/systemd/system#
 
+```
 
 8) configure push_pcap to filter and output data to each ring
-```
