@@ -11,8 +11,15 @@ jobs:
       - run: cd ~
       - run: pwd
       - run: ls -la
-      - run: cat .ssh/id_rsa.pub
-      #- run: git clone 
+      - run: npx create-docusaurus@latest fmadio-doc classic
+      - run: cd fmadio-doc/
+      - run: git clone git@github.com:fmadio/documentationV2.git
+      
+      
+      
+      
+      
+      
       #- name: Check out repository code
       #  uses: actions/checkout@v3
       #- run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
