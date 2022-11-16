@@ -37,6 +37,10 @@ jobs:
       - run: pwd
       
       - run: cp fmadio-doc/build/ /home/fmadio/${{ steps.date.outputs.date }}/ -r
+      
+      #move to S3
+      - run: sudo rm /mnt/s3-fmadio-doc/* -rf
+      - run: sudo cp fmadio-doc/build/* /mnt/s3-fmadio-doc/ -r
 
 
 
