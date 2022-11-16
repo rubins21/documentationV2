@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Introduction'
+sidebar_label: 'MD-Gap'
 sidebar_position: 0
 ---
 
