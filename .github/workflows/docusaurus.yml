@@ -26,6 +26,10 @@ jobs:
       - run: cd fmadio-doc/ && npm i docusaurus-lunr-search  --save
       - run: cd fmadio-doc/ && npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
       - run: cd fmadio-doc/ && npm run build
+      - run: cp fmadio-doc/docs/_config/htmlinject.lua fmadio-doc/build
+      - run: chmod +x fmadio-doc/build/htmlinject.lua
+      - run: cp fmadio-doc/docs/_config/ins.txt fmadio-doc/build
+      - run: cd fmadio-doc/build && ./htmlinject.lua
       - run: cp fmadio-doc/build/ /home/fmadio/${{ steps.date.outputs.date }}/ -r
       - run: pwd
       #- run: npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
