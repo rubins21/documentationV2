@@ -21,10 +21,15 @@ npm i docusaurus-lunr-search  --save
 ```
 
 git clone git@github.com:fmadio/documentationV2.git
+
 rm docs
+
 mv documentationV2 docs
+
 cp docs/_config/docusaurus.config.js
+
 cp docs/_config/static/index.html
+
 del src/pages/index.js
 
 # Congifure Docusaurus
