@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'FMADIO',
+  tagline: 'Documentation',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'FMADIO', // Usually your GitHub org/user name.
+  projectName: 'Documentation', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -39,6 +39,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+/*
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -46,30 +47,24 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+*/
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
   ],
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'mdgap', // omitted => default instance
-        path: 'documentationV2/mdgap',
-        routeBasePath: 'mdgap',
-        sidebarPath: require.resolve('./sidebars-mdgap.js'),
-        // ... other options
-      },
-    ],
-  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
-        title: 'FMADIO Documentation',
+        title: 'FMADIO',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -79,18 +74,21 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
+/*
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
+*/
         ],
       },
       footer: {
         style: 'dark',
+/*
         links: [
           {
             title: 'Docs',
@@ -132,13 +130,15 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+*/
+        copyright: `Copyright © ${new Date().getFullYear()} FMADIO, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+    plugins: [require.resolve('docusaurus-lunr-search')],
 };
 
 module.exports = config;
