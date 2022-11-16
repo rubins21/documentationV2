@@ -68,7 +68,7 @@ const config = {
         title: 'FMADIO',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/fmadio-logo.png',
         },
         items: [
           {
