@@ -21,6 +21,7 @@ jobs:
       - run: rm fmadio-doc/docs/ -rf
       - run: mv documentationV2/ fmadio-doc/docs
       - run: cp fmadio-doc/docs/_config/docusaurus.config.js fmadio-doc/
+      
       #- run: cp fmadio-doc/docs/_config/static/index.html fmadio-doc/static
       - run: rm fmadio-doc/src/pages/index.js
       - run: cd fmadio-doc/ && npm i docusaurus-lunr-search  --save
@@ -31,6 +32,7 @@ jobs:
       - run: cp fmadio-doc/docs/_config/ins.txt fmadio-doc/build
       - run: cd fmadio-doc/build && ./htmlinject.lua
       - run: cp fmadio-doc/build/ /home/fmadio/${{ steps.date.outputs.date }}/ -r
+      - run: cp fmadio-doc/docs/_config/favicon.ico fmadio-doc/build/img/favicon.ico
       - run: pwd
       #- run: npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
 
