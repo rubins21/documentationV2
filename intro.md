@@ -9,7 +9,7 @@ sidebar_position: 0
 FMADIO Documentation can be found here.
 
 
-## FMADIO20GV3
+## FMADIO20V3
 [Manual](../docs/fmadio20v3/README.md)
 
 
