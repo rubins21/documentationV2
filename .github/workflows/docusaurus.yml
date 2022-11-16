@@ -19,7 +19,9 @@ jobs:
       - run: cp fmadio-doc/docs/_config/docusaurus.config.js fmadio-doc/
       - run: cp fmadio-doc/docs/_config/static/index.html fmadio-doc/static
       - run: rm fmadio-doc/src/pages/index.js
-      - run: cd fmadio-doc
+      - run: cd fmadio-doc/ && npm i docusaurus-lunr-search  --save
+      - run: cd fmadio-doc/ && npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
+      - run: cd fmadio-doc/ && npm run build
       - run: pwd
       #- run: npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
 
