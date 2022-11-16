@@ -5,6 +5,10 @@ jobs:
   Docusaurus-Build:
     runs-on: docusaurus
     steps:
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y%m%d')"
+        
       - run: pwd
       - run: whoami
       - run: ls -la
@@ -22,6 +26,7 @@ jobs:
       - run: cd fmadio-doc/ && npm i docusaurus-lunr-search  --save
       - run: cd fmadio-doc/ && npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
       - run: cd fmadio-doc/ && npm run build
+      - run: cp fmadio-doc/build/ /home/fmadio/${{ steps.date.outputs.date }}/
       - run: pwd
       #- run: npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
 
