@@ -67,7 +67,8 @@ const config = {
       navbar: {
         title: 'FMADIO',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'FMADIO Logo',
+          href: 'https://fmad.io/',
           src: 'img/fmadio-logo.png',
         },
         items: [
