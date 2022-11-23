@@ -25,7 +25,7 @@ jobs:
       - run: mv fmadio-doc/docs/_config/docusaurus.config.js fmadio-doc/
       - run: rm fmadio-doc/src/pages/index.js
       - run: chmod +x fmadio-doc/md2pdf.lua
-      - run: ./md2pdf.lua
+      - run: cd fmadio-doc && ./md2pdf.lua
       - run: cd fmadio-doc/ && npm i docusaurus-lunr-search  --save
       - run: cd fmadio-doc/ && npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
       - run: cd fmadio-doc/ && npm run build
