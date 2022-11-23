@@ -20,7 +20,7 @@ jobs:
       - run: npx create-docusaurus@latest fmadio-doc classic
       - run: rm fmadio-doc/docs/ -rf
       - run: mv documentationV2/ fmadio-doc/docs
-      - run: mv docs/_config/md2pdf.lua fmadio-doc/
+      - run: mv fmadio-doc/docs/_config/md2pdf.lua fmadio-doc/
       - run: mv fmadio-doc/docs/_config/custom.css fmadio-doc/src/css
       - run: mv fmadio-doc/docs/_config/docusaurus.config.js fmadio-doc/
       - run: rm fmadio-doc/src/pages/index.js
