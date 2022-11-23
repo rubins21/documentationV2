@@ -1,7 +1,5 @@
 #!/usr/bin/luajit
 
---os.execute("cp index.bak index.html")
-
 local f = io.popen("find . |grep '\\.md'", "r")
 for l in f:lines() do
         print ("file found: "..l)

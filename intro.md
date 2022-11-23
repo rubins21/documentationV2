@@ -20,3 +20,7 @@ FMADIO Documentation can be found here.
 
 ## FMADIO40V3
 [Manual](/fmadio40v3/README.md)
+
+
+## Download
+[PDF] (/pdf/intro.pdf)
