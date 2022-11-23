@@ -1,6 +1,6 @@
 #!/usr/bin/luajit
 
-os.execute("cp index.bak index.html")
+--os.execute("cp index.bak index.html")
 
 local f = io.popen("find . |grep index.html", "r")
 for l in f:lines() do
