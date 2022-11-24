@@ -9,7 +9,7 @@ slug: /
 </head>
 
 
-## FMADIO Documentation ##
+# FMADIO Documentation
 
 FMADIO Documentation can be found here.
 
