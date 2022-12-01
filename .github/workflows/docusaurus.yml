@@ -1,4 +1,4 @@
-name: Docusaurus Buiuld
+name: Docusaurus Build
 run-name: Docusaurus Build
 on: [push]
 jobs:
