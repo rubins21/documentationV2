@@ -2,6 +2,9 @@
 sidebar_label: 'Performance'
 sidebar_position: 3
 ---
+<head>
+  <title>FMADIO | MD-Gap Performance</title>
+</head>
 
 # Performance
 
