@@ -2,6 +2,9 @@
 sidebar_label: 'Setup'
 sidebar_position: 2
 ---
+<head>
+  <title>FMADIO | MD-Gap Setup</title>
+</head>
 
 # Setup Configuration #
 
