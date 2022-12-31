@@ -1,12 +1,12 @@
 {
-  "position": 3,
-  "label": "FMADIO20V3",
+  "position": 1,
+  "label": "FMADIO20v3",
   "collapsible": true,
   "collapsed": true,
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "FMADIO20V3"
+    "title": "FMADIO20v3"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
