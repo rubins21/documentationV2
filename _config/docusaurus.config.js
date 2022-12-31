@@ -27,6 +27,8 @@ const config = {
     locales: ['en'],
   },
 
+  staticDirectories: ['static'],
+
   presets: [
     [
       'classic',
@@ -65,7 +67,7 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'FMADIO',
+        title: '',
         logo: {
           alt: 'FMADIO Logo',
           href: 'https://fmad.io/',
@@ -76,7 +78,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentation',
+            label: 'DOCUMENTATION',
           },
 /*
           {to: '/blog', label: 'Blog', position: 'left'},
@@ -133,7 +135,7 @@ const config = {
           },
         ],
 */
-        copyright: `Copyright © ${new Date().getFullYear()} FMADIO, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} - fmad engineering`,
       },
       prism: {
         theme: lightCodeTheme,
