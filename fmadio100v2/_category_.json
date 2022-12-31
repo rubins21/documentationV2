@@ -1,0 +1,14 @@
+{
+  "position": 4,
+  "label": "FMADIO100v3",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "FMADIO100v3"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
