@@ -1,3 +1,7 @@
+<head>
+  <title>FMADIO20v3 | Hardware</title>
+</head>
+
 # Hardware
 
 FMADIO 20G Gen3 1U System
@@ -42,3 +46,6 @@ FW: 7256 \(2021/710\)
 
 ![](.gitbook/assets/image%20%2879%29.png)
 
+
+## Download 
+[PDF](./hardware.pdf)
