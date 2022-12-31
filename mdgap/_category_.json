@@ -1,12 +1,12 @@
 {
-  "position": 1,
-  "label": "MD-Gap",
+  "position": 8,
+  "label": "Market Data Gap",
   "collapsible": true,
   "collapsed": true,
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "MD-Gap"
+    "title": "Market Data Gap Detection"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
