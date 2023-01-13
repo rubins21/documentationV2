@@ -23,6 +23,7 @@ jobs:
       - run: mv fmadio-doc/docs/_config/md2pdf.lua fmadio-doc/docs/
       - run: mv fmadio-doc/docs/_config/custom.css fmadio-doc/src/css
       - run: mv fmadio-doc/docs/_config/docusaurus.config.js fmadio-doc/
+      - run: cd fmadio-doc/docs/_config/ && ./generate.lua
       - run: rm fmadio-doc/src/pages/index.js
       - run: chmod +x fmadio-doc/docs/md2pdf.lua
       - run: cd fmadio-doc/docs && ./md2pdf.lua
