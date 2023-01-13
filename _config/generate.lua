@@ -27,17 +27,17 @@ end
 -----------------------------------------------------------------------------------
 
 
-MasterGenerate("fmadio20v3", "../master/configuration/network-configuration-gui.md", "Config", "network-config-gui")
-MasterGenerate("fmadio20v3", "../master/configuration/network-configuration-cli.md", "Config", "network-config-cli")
+MasterGenerate("fmadio20v3", "../master/Config/network-configuration-gui.md", "Config", "network-config-gui")
+MasterGenerate("fmadio20v3", "../master/Config/network-configuration-cli.md", "Config", "network-config-cli")
 
-MasterGenerate("fmadio20p3", "../master/configuration/network-configuration-gui.md", "Config", "network-config-gui")
-MasterGenerate("fmadio20p3", "../master/configuration/network-configuration-cli.md", "Config", "network-config-cli")
+MasterGenerate("fmadio20p3", "../master/Config/network-configuration-gui.md", "Config", "network-config-gui")
+MasterGenerate("fmadio20p3", "../master/Config/network-configuration-cli.md", "Config", "network-config-cli")
 
-MasterGenerate("fmadio40v3", "../master/configuration/network-configuration-gui.md", "Config", "network-config-gui")
-MasterGenerate("fmadio40v3", "../master/configuration/network-configuration-cli.md", "Config", "network-config-cli")
+MasterGenerate("fmadio40v3", "../master/Config/network-configuration-gui.md", "Config", "network-config-gui")
+MasterGenerate("fmadio40v3", "../master/Config/network-configuration-cli.md", "Config", "network-config-cli")
 
-MasterGenerate("fmadio100v2", "../master/configuration/network-configuration-gui.md", "Config", "network-config-gui")
-MasterGenerate("fmadio100v2", "../master/configuration/network-configuration-cli.md", "Config", "network-config-cli")
+MasterGenerate("fmadio100v2", "../master/Config/network-configuration-gui.md", "Config", "network-config-gui")
+MasterGenerate("fmadio100v2", "../master/Config/network-configuration-cli.md", "Config", "network-config-cli")
 
-MasterGenerate("fmadio100p3", "../master/configuration/network-configuration-gui.md", "Config", "network-config-gui")
-MasterGenerate("fmadio100p3", "../master/configuration/network-configuration-cli.md", "Config", "network-config-cli")
+MasterGenerate("fmadio100p3", "../master/Config/network-configuration-gui.md", "Config", "network-config-gui")
+MasterGenerate("fmadio100p3", "../master/Config/network-configuration-cli.md", "Config", "network-config-cli")
