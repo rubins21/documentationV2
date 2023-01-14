@@ -1,3 +1,8 @@
+---
+sidebar_label: 'Global Time Sync'
+sidebar_position: 301 
+---
+
 # Global Time Synchronization
 
 FMADIO Packet captures systems have the ability to get &lt; 100nsec global world time synchronization using PTPv2 + PPS signal.

@@ -16,6 +16,13 @@ SidebarPos["Config"] = {}
 SidebarPos["Config"]["network-config-gui"] = 100
 SidebarPos["Config"]["network-config-cli"] = 101
 
+SidebarPos["Settings"] 				= {} 
+SidebarPos["Settings"]["capture"] 	= 200
+
+SidebarPos["Troubleshooting"] 		= 300
+
+SidebarPos["Maintenance"] 			= 400
+
 -----------------------------------------------------------------------------------
 local MasterGenerate = function(SKU, Source, Section, Name)
 
@@ -36,12 +43,16 @@ local MasterGenerate = function(SKU, Source, Section, Name)
 	write("title: '%s'\n", TitleMap[Name])
 	write("sidebar_label: '%s'\n", TitleMap[Name])
 
-	local Pos = SidebarPos[Section][Name]
+	local Sec = SidebarPos[Section]
+	local Pos = tonumber(Sec)
+	if (type(Sec) == "table") then
+		Pos = SidebarPos[Section][Name]
+	end
 	if (Pos ~= nil) then
 		write("sidebar_position: %i\n", Pos)
 	end
 	write("---\n")
-
+print(Section, Name, Pos)
 
 	-- header tags
 	local SKUStr = SKU
