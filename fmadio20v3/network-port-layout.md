@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Network Port Layout'
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Network Port Layout
@@ -9,9 +9,9 @@ sidebar_position: 4
 
 ![](../images/fmadio20v3/network-port-layout.md-image-0.png)
 
-FMADIO 20G Gen3 1U Analytics Port Layout
+### FMADIO 20G Gen3 1U Analytics Port Layout
 
-![](../images/fmadio20v3/network-port-layout.md-image-1.png)
+TBD
 
 ### FMADIO 20G Gen3 2U Capture Port layout
 

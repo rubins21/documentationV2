@@ -1,4 +1,9 @@
-# System SKU
+---
+sidebar_label: 'Hardware SKU'
+sidebar_position: 4
+---
+
+# Hardware SKU
 
 ### FMADIO20G Gen3 Capture SKU
 
