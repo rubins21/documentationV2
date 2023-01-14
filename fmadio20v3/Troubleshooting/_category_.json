@@ -1,0 +1,11 @@
+{
+  "position": 8,
+  "label": "Troubleshooting",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
