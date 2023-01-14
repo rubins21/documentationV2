@@ -23,16 +23,16 @@ sidebar_position: 1
 
 ## Settings
 
-* [HDD Writeback](settings/writeback.md)
-* [Capture](settings/capture.md)
+* [HDD Writeback](Settings/writeback.md)
+* [Capture](Settings/capture.md)
 
 ## Troubleshooting
 
-* [System Recovery](troubleshooting/system-recovery.md)
-* [Global Time Synchronization](troubleshooting/global-time-synchronization.md)
+* [System Recovery](Troubleshooting/system-recovery.md)
+* [Global Time Synchronization](Troubleshooting/global-time-synchronization.md)
 
 ## Maintenance
 
-* [Rack mount install](maintenance/rack-mount-install.md)
-* [SSD Hardware replacement](maintenance/ssd-hardware-replacement.md)
-* [HDD Hardware replacaement](maintenance/hdd-hardware-replacaement.md)
+* [Rack mount install](Maintenance/rack-mount-install.md)
+* [SSD Hardware replacement](Maintenance/ssd-hardware-replacement.md)
+* [HDD Hardware replacaement](Maintenance/hdd-hardware-replacaement.md)
