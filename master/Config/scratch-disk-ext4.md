@@ -19,7 +19,7 @@ fmadio@fmadio20v3-287:~$
 
 **NOTE**: Any change to the scratch disk configuration it is recommend to run a Quick Format to ensure SSD and Capture disks configuration are consistent
 
-## Specifcying Sratch Disks
+## Specifcying Scratch Disks
 
 By default all SSD are specified are dedicated to capture. This is specified in the configuration file
 
