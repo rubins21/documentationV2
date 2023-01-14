@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'SSD Hardware Replacement'
-sidebar_position: 404 
+sidebar_position: 402 
 ---
 
 # SSD Hardware replacement
