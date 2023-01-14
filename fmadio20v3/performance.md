@@ -1,3 +1,8 @@
+---
+sidebar_label: 'Performance'
+sidebar_position: 5
+---
+
 # Performance
 
 The performance of a capture system can be characterized in a number of different ways. We provide the following performance dimensions
