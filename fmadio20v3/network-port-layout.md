@@ -17,7 +17,7 @@ TBD
 
 ![](../images/fmadio20v3/network-port-layout.md-image-2.png)
 
-### FMADIO20G Gen3 1U SM Variation
+### FMADIO 20G Gen3 1U SM Variation
 
 ![](../images/fmadio20v3/network-port-layout.md-image-3.png)
 
