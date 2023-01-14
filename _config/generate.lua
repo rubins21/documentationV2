@@ -100,7 +100,7 @@ local MasterGenerate = function(SKU, Source, Section, Name)
 	SKUStr = SKUStr:gsub("fmadio", "FMADIO") 
 
 	write("<head>\n")	
-	write("  <title> %s Doc | %s </title>\n", SKUStr, TitleMap[Name])	
+	write("  <title> %s | %s </title>\n", SKUStr, TitleMap[Name])	
 	write("</head>\n")	
 
 	write("\n")	
@@ -164,14 +164,33 @@ MasterGenerate("fmadio20v3", "../master/Config/multicast-igmp-subscribe.md",		"C
 
 MasterGenerate("fmadio20p3", "../master/Config/network-configuration-gui.md", 		"Config", "network-config-gui")
 MasterGenerate("fmadio20p3", "../master/Config/network-configuration-cli.md", 		"Config", "network-config-cli")
+MasterGenerate("fmadio20p3", "../master/Config/capture-port-link-speed-f100.md",	"Config", "capture-port-speed")
+MasterGenerate("fmadio20p3", "../master/Config/capture-port-ip-mac.md",				"Config", "capture-port-ip-mac")
+MasterGenerate("fmadio20p3", "../master/Config/multicast-igmp-subscribe.md",		"Config", "multicast-igmp-subscribe")
+
 
 MasterGenerate("fmadio40v3", "../master/Config/network-configuration-gui.md", 		"Config", "network-config-gui")
 MasterGenerate("fmadio40v3", "../master/Config/network-configuration-cli.md", 		"Config", "network-config-cli")
+MasterGenerate("fmadio40v3", "../master/Config/scratch-disk-ext4.md", 				"Config", "scratch-disk-ext4")
+MasterGenerate("fmadio40v3", "../master/Config/management-interface.md", 			"Config", "management-interface")
+MasterGenerate("fmadio40v3", "../master/Config/capture-port-link-speed-f100.md",	"Config", "capture-port-speed")
+MasterGenerate("fmadio40v3", "../master/Config/capture-port-ip-mac.md",				"Config", "capture-port-ip-mac")
+MasterGenerate("fmadio40v3", "../master/Config/multicast-igmp-subscribe.md",		"Config", "multicast-igmp-subscribe")
 
 MasterGenerate("fmadio100v2", "../master/Config/network-configuration-gui.md", 		"Config", "network-config-gui")
 MasterGenerate("fmadio100v2", "../master/Config/network-configuration-cli.md", 		"Config", "network-config-cli")
 MasterGenerate("fmadio100v2", "../master/Config/capture-port-link-speed-f100.md",	"Config", "capture-port-speed")
+MasterGenerate("fmadio100v2", "../master/Config/scratch-disk-ext4.md", 				"Config", "scratch-disk-ext4")
+MasterGenerate("fmadio100v2", "../master/Config/management-interface.md", 			"Config", "management-interface")
+MasterGenerate("fmadio100v2", "../master/Config/capture-port-link-speed-f100.md",	"Config", "capture-port-speed")
+MasterGenerate("fmadio100v2", "../master/Config/capture-port-ip-mac.md",			"Config", "capture-port-ip-mac")
+MasterGenerate("fmadio100v2", "../master/Config/multicast-igmp-subscribe.md",		"Config", "multicast-igmp-subscribe")
 
 MasterGenerate("fmadio100p3", "../master/Config/network-configuration-gui.md", 		"Config", "network-config-gui")
 MasterGenerate("fmadio100p3", "../master/Config/network-configuration-cli.md", 		"Config", "network-config-cli")
+MasterGenerate("fmadio100p3", "../master/Config/scratch-disk-ext4.md", 				"Config", "scratch-disk-ext4")
+MasterGenerate("fmadio100p3", "../master/Config/management-interface.md", 			"Config", "management-interface")
+MasterGenerate("fmadio100p3", "../master/Config/capture-port-link-speed-f100.md",	"Config", "capture-port-speed")
+MasterGenerate("fmadio100p3", "../master/Config/capture-port-ip-mac.md",			"Config", "capture-port-ip-mac")
+MasterGenerate("fmadio100p3", "../master/Config/multicast-igmp-subscribe.md",		"Config", "multicast-igmp-subscribe")
 
