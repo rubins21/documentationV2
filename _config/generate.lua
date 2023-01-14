@@ -2,6 +2,19 @@
 
 print("md file generator")
 
+-----------------------------------------------------------------------------------
+-- mapping to nice names
+local TitleMap = {}
+TitleMap["network-config-cli"] = "Network Config (CLI)"
+TitleMap["network-config-gui"] = "Network Config (GUI)"
+
+setmetatable(TitleMap, { __index = function(t, k) return k end } )
+
+
+local SidebarPos = {}
+SidebarPos["Config"] = {}
+SidebarPos["Config"]["network-config-gui"] = 100
+SidebarPos["Config"]["network-config-cli"] = 101
 
 -----------------------------------------------------------------------------------
 local MasterGenerate = function(SKU, Source, Section, Name)
@@ -15,17 +28,41 @@ local MasterGenerate = function(SKU, Source, Section, Name)
 	local In = io.open(Source, "r") 
 	assert(In ~= nil)
 
+	function write(Message, ...)
+		Out:write( string.format(Message, unpack({...})))
+	end
+
+	write("---\n")
+	write("title: '%s'\n", TitleMap[Name])
+	write("sidebar_label: '%s'\n", TitleMap[Name])
+
+	local Pos = SidebarPos[Section][Name]
+	if (Pos ~= nil) then
+		write("sidebar_position: %i\n", Pos)
+	end
+	write("---\n")
+
+
+	-- header tags
+	local SKUStr = SKU
+	SKUStr = SKUStr:gsub("fmadio", "FMADIO") 
+
+	write("<head>\n")	
+	write("  <title> %s Docs | %s </title>\n", SKUStr, TitleMap[Name])	
+	write("</head>\n")	
+
+	write("\n")	
+	write("\n")	
+
 	for l in In:lines() do
 		Out:write(l.."\n")
 	end
 
 	In:close()
 	Out:close()
-
 end
 
 -----------------------------------------------------------------------------------
-
 
 MasterGenerate("fmadio20v3", "../master/Config/network-configuration-gui.md", "Config", "network-config-gui")
 MasterGenerate("fmadio20v3", "../master/Config/network-configuration-cli.md", "Config", "network-config-cli")
