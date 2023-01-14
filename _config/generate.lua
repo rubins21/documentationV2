@@ -29,7 +29,7 @@ function table.count(t)
 
     local c = 0
     for a,b in pairs(t) do c = c + 1 end
-    return c
+	return c
 end
 
 -----------------------------------------------------------------------------------
@@ -63,6 +63,7 @@ SidebarPos["Troubleshooting"] 		= 300
 SidebarPos["Maintenance"] 			= 400
 
 -----------------------------------------------------------------------------------
+
 local MasterGenerate = function(SKU, Source, Section, Name)
 
 	local OutputName = "../"..SKU.."/"..Section.."/"..Name..".md"
@@ -171,3 +172,4 @@ MasterGenerate("fmadio100v2", "../master/Config/capture-port-link-speed-f100.md"
 
 MasterGenerate("fmadio100p3", "../master/Config/network-configuration-gui.md", 		"Config", "network-config-gui")
 MasterGenerate("fmadio100p3", "../master/Config/network-configuration-cli.md", 		"Config", "network-config-cli")
+
