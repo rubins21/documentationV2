@@ -40,6 +40,7 @@ TitleMap["network-config-gui"] 		= "Network Config (GUI)"
 TitleMap["scratch-disk-ext4"] 		= "Scratch Disk EXT4"
 TitleMap["management-interface"] 	= "Management Interface"
 TitleMap["capture-port-speed"] 		= "Capture Port Speed"
+TitleMap["capture-port-ip-mac"] 	= "Capture Port Static IP"
 
 setmetatable(TitleMap, { __index = function(t, k) return k end } )
 
@@ -49,6 +50,8 @@ SidebarPos["Config"] = {}
 SidebarPos["Config"]["network-config-gui"] 		= 100
 SidebarPos["Config"]["network-config-cli"] 		= 101
 SidebarPos["Config"]["management-interface"] 	= 102
+SidebarPos["Config"]["capture-port-speed"] 		= 103
+SidebarPos["Config"]["capture-port-ip-mac"] 	= 104
 
 SidebarPos["Config"]["scratch-disk-ext4"] 		= 150
 
@@ -94,7 +97,7 @@ local MasterGenerate = function(SKU, Source, Section, Name)
 	SKUStr = SKUStr:gsub("fmadio", "FMADIO") 
 
 	write("<head>\n")	
-	write("  <title> %s Docs | %s </title>\n", SKUStr, TitleMap[Name])	
+	write("  <title> %s Doc | %s </title>\n", SKUStr, TitleMap[Name])	
 	write("</head>\n")	
 
 	write("\n")	
@@ -153,6 +156,7 @@ MasterGenerate("fmadio20v3", "../master/Config/network-configuration-cli.md", 		
 MasterGenerate("fmadio20v3", "../master/Config/scratch-disk-ext4.md", 				"Config", "scratch-disk-ext4")
 MasterGenerate("fmadio20v3", "../master/Config/management-interface.md", 			"Config", "management-interface")
 MasterGenerate("fmadio20v3", "../master/Config/capture-port-link-speed-f100.md",	"Config", "capture-port-speed")
+MasterGenerate("fmadio20v3", "../master/Config/capture-port-ip-mac.md",				"Config", "capture-port-ip-mac")
 
 
 MasterGenerate("fmadio20p3", "../master/Config/network-configuration-gui.md", 		"Config", "network-config-gui")
