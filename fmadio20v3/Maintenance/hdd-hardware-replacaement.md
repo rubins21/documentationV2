@@ -1,3 +1,8 @@
+---
+sidebar_label: 'HDD Hardware Replacement'
+sidebar_position: 402 
+---
+
 # HDD Hardware replacaement
 
 ### Hardware Replacement

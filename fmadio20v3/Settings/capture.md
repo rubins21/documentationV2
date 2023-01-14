@@ -1,3 +1,8 @@
+---
+sidebar_label: 'Capture'
+sidebar_position: 201 
+---
+
 # Capture
 
 There are various tunable available only via configuration file editing the fie
