@@ -1,6 +1,8 @@
 ---
-description: Hardware
+sidebar_label: 'Introduction'
+sidebar_position: 2
 ---
+
 
 # Introduction
 

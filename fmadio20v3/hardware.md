@@ -1,18 +1,19 @@
-<head>
-  <title>FMADIO20v3 | Hardware</title>
-</head>
+---
+sidebar_label: 'Hardware'
+sidebar_position: 3
+---
 
 # Hardware
 
 FMADIO 20G Gen3 1U System
 
-![FMADIO 20G Gen3 1U Packet Capture System](.gitbook/assets/image%20%2816%29.png)
+![FMADIO 20G Gen3 1U Packet Capture System](../images/fmadio20v3/hardware.md-image-0.png)
 
 FMADIO 20G Gen3 2U System
 
-![FMADIO 20G Gen3 2U Packet Capture System](.gitbook/assets/image%20%2815%29.png)
+![FMADIO 20G Gen3 2U Packet Capture System](../images/fmadio20v3/hardware.md-image-1.png)
 
-![FMADIO 20G 2U Rear view](.gitbook/assets/image%20%2863%29.png)
+![FMADIO 20G 2U Rear view](../images/fmadio20v3/hardware.md-image-2.png)
 
 ## Power Consumption
 
@@ -32,22 +33,17 @@ FMADIO20G Gen2 1U System
 
 FW: 7256 \(2021/7/10\)
 
-![FMADIO20G Gen3 1U Power Consumption Idle](.gitbook/assets/image%20%2875%29.png)
+![FMADIO20G Gen3 1U Power Consumption Idle](../images/fmadio20v3/hardware.md-image-3.png)
 
 ### 1U Capture Full Capture Power consumption
 
 FW: 7256 \(2021/7/10\)
 
-![FMADIO20G Gen3 1U Power Consumption Full Capture](.gitbook/assets/image%20%2878%29.png)
+![FMADIO20G Gen3 1U Power Consumption Full Capture](../images/fmadio20v3/hardware.md-image-4.png)
 
 ### 1U Maximum Power Consumption
 
 FW: 7256 \(2021/710\)
 
-![](.gitbook/assets/image%20%2879%29.png)
+![](../images/fmadio20v3/hardware.md-image-5.png)
 
-
-## Download 
-<!--
-[comment]: # [PDF](./hardware.pdf)
--->

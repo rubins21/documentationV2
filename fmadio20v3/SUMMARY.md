@@ -1,3 +1,8 @@
+---
+sidebar_label: 'Table of Contents'
+sidebar_position: 1
+---
+
 # Table of contents
 
 * [Introduction](README.md)
