@@ -48,4 +48,6 @@ FW: 7256 \(2021/710\)
 
 
 ## Download 
-[PDF](./hardware.pdf)
+<!--
+[comment]: # [PDF](./hardware.pdf)
+-->
