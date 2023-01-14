@@ -9,7 +9,7 @@ function removeExtra(s)
 end
 
 
-local f = io.popen("find . |grep '\\.md'", "r")
+local f = io.popen("find . |grep '\\.md$'", "r")
 for l in f:lines() do
         print ("file found: "..l)
 	--io.popen('md-to-pdf '..l, "r")
